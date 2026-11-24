@@ -3,6 +3,7 @@
 ## Build tools & version control
 base-devel              # also in Omarchy
 git                     # also in Omarchy
+github-cli              # GitHub CLI (gh): repo create, auth, PRs
 subversion
 cmake                   # also in Omarchy
 meson
