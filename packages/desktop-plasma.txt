@@ -1,0 +1,10 @@
+# KDE Plasma desktop for plain Arch machines (like PHILLIPS).
+# On Omarchy, omarchy-plasma installs Plasma instead; skip this file there.
+# Only installed with: ./install.sh --plasma
+
+plasma-meta
+plasma-workspace
+konsole
+dolphin
+kitty
+xorg-xinit

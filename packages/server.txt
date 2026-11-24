@@ -1,0 +1,26 @@
+# Server roles: containers, CI, virtual machines, remote desktop.
+# Only installed with: ./install.sh --server
+
+## Containers & CI
+docker
+docker-compose
+jenkins
+
+## Virtual machines
+qemu-full
+libvirt
+virt-manager
+swtpm
+dnsmasq
+
+## Remote desktop (RDP into this machine)
+xrdp                    # AUR
+xorgxrdp                # AUR
+
+## Backup server
+restic-rest-server
+
+## Notifications & system mail (cron/alert email)
+ntfysh-bin              # AUR
+msmtp-mta
+s-nail

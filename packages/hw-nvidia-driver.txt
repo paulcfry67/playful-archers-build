@@ -1,0 +1,8 @@
+# Nvidia driver for plain Arch on the stock `linux` kernel (like LEONA).
+# Installed with --nvidia only when Omarchy is NOT detected:
+# Omarchy installs its own matched driver (linux-omarchy-nvidia-open), which this would conflict with.
+
+nvidia-open
+linux-headers
+dkms
+libva-nvidia-driver

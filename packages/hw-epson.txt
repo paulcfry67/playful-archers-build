@@ -1,0 +1,4 @@
+# Hardware-specific: Epson inkjet printer driver (AUR)
+# Only installed with: ./install.sh --epson
+
+epson-inkjet-printer-escpr2

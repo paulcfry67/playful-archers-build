@@ -1,0 +1,60 @@
+# Development tools. Always installed.
+
+## Build tools & version control
+base-devel              # also in Omarchy
+git                     # also in Omarchy
+subversion
+cmake                   # also in Omarchy
+meson
+gcc13
+gcc13-fortran
+
+## Java (Progress OpenEdge: 12.2 needs JDK 11, 12.8 LTS needs JDK 17)
+# Switch the default with: archlinux-java set <name>
+jdk11-openjdk
+jdk17-openjdk
+ant
+
+## Python
+python
+python-pip
+uv
+bpython
+python-sqlitedict
+jupyter-notebook
+
+## Node.js & Rust
+nodejs
+npm
+rust
+
+## Editors & IDEs
+neovim
+geany
+kdevelop
+kdevelop-python
+kdevelop-php
+visual-studio-code-bin  # AUR. Microsoft build for the full extension marketplace (conflicts with `code`)
+arduino-ide-bin         # AUR
+claude-code             # AUR
+
+## Databases
+postgresql
+pgvector
+postgresql-ip4r
+postgrest
+sqlitebrowser
+sqlite-analyzer
+sqlite-tcl
+
+## Web
+hugo
+
+## Inspection & network diagnostics
+jq
+imhex
+socat
+nmap
+tcpdump
+bind
+inetutils

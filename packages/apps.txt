@@ -1,0 +1,101 @@
+# Everyday apps and system tools. Always installed.
+# Sources: PHILLIPS (2026-11-12) and LEONA (2026-11-14) `pacman -Qe`.
+# One package per line; '#' starts a comment. AUR packages are found automatically.
+
+## System
+pacman-contrib          # also in Omarchy
+reflector
+plocate                 # also in Omarchy
+cronie
+at
+zram-generator
+man-db
+smartmontools
+unzip                   # also in Omarchy
+wget
+duf
+btop                    # also in Omarchy
+htop
+glow
+
+## Shell
+zsh
+zsh-completions         # Extra tab-completion definitions for many CLI tools
+
+## Terminal editors
+vim
+nano
+
+## Plasma essentials missing from omarchy-plasma's lean set
+bluedevil               # Bluetooth panel and tray icon
+print-manager           # Printers panel in System Settings
+spectacle               # Screenshot tool (PrtSc)
+kwallet-pam             # Unlocks the password wallet at login
+polkit-kde-agent        # Password prompts for admin actions in Plasma
+
+## Desktop apps (KDE)
+# kitty, konsole and dolphin come from omarchy-plasma (or desktop-plasma.txt on plain Arch)
+xdg-utils
+ark
+kate
+kdiff3
+ghostwriter
+krdc
+krecorder
+ksnip
+flameshot
+
+## Audio (PipeWire)
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+wireplumber             # also in Omarchy
+gst-plugin-pipewire
+libpulse
+pavucontrol
+
+## Networking
+networkmanager          # also in Omarchy
+network-manager-applet
+nss-mdns
+tailscale
+putty
+speedtest-cli
+# iwd left out: Omarchy disables it and uses NetworkManager
+
+## Bluetooth & peripherals
+bluez                   # also in Omarchy
+bluez-utils             # also in Omarchy
+solaar                  # Logitech Unifying/Bolt receiver manager (mice, keyboards)
+
+## Printing
+cups                    # also in Omarchy
+cups-filters            # also in Omarchy
+cups-pdf
+ghostscript
+system-config-printer   # also in Omarchy
+
+## Passwords & security
+keepassxc
+bitwarden
+gnome-keyring
+seahorse
+clamav
+
+## Backup & sync
+restic
+syncthing
+
+## Browsers & communication
+firefox
+brave-bin               # AUR
+google-chrome           # AUR, also in Omarchy
+signal-desktop
+thunderbird
+
+## Office & graphics
+libreoffice-fresh       # also in Omarchy
+gimp
+brasero
+qpdf

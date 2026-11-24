@@ -1,0 +1,9 @@
+# Nvidia GPU extras: settings, CUDA and GPU-accelerated AI.
+# Only installed with: ./install.sh --nvidia
+# On Omarchy, the driver itself comes from Omarchy; on plain Arch, see hw-nvidia-driver.txt.
+
+nvidia-settings
+cuda
+cudnn
+ollama-cuda
+onnxruntime-cuda
